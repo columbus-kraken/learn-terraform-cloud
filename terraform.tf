@@ -1,13 +1,11 @@
 terraform {
-/*
   cloud {
-   organization = "organization-name"
+   organization = "columbus_kraken"
 
    workspaces {
-     name = "learn-terraform-cloud"
+     name = "kraken-ltc"
    }
   }
-*/
 
   required_providers {
     aws = {
